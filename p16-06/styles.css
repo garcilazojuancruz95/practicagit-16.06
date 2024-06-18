@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    padding: 10px;
+}
+
+.filas {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenido, .imagen {
+    flex: 1 1 50%;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
